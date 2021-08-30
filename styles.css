@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: #66BFBF;
+    font-family: 'Lobster Two', cursive;
+}
+h3 {
+    color: #66BFBF;
+    font-family: 'Rampart One', cursive;
+}
+hr {
+    align-items: center;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 4%;
+}
+p {
+    color: black;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+div {
+    background-color: #E4F9F5;
+}
+.top-container {
+    padding-top: 113px;
+    background-color: #E4F9F5;
+    position: relative;
+}
+.middle-container {
+    padding-top: 113px;
+    background-color: #E4F9F5;
+    position: relative;
+}
+.skills {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 180px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container p {
+    font-size: 3rem;
+    padding: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+  
